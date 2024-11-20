@@ -2,10 +2,10 @@
 
 # importing modules
 import itertools
-import random
+import random  # random is a module that generates random numbers
 
 # make a deck of cards
-deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club'])
+deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club']))
 
 # shuffle the cards
 random.shuffle(deck)
